@@ -1,0 +1,804 @@
+/*TOP CSS VALUES ARE FOR DESKTOP SIZE*/
+
+/*html {
+    width: auto;
+}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1000px;
+    /*width: 100%;*/
+    margin: auto; 
+}
+
+
+/*TOP NAV*/
+
+.flex-container {
+    display: block;
+    flex-wrap: nowrap;
+    background-color: #354796;
+}
+
+.flex-container > div{
+    width: 150px;
+    margin: 20px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.flex-container > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*TEXT- HALIFAX CANOE AND KAYAK NAV TEXT*/
+.headerTitle {
+    color: white;
+    font-size: 2.25em;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*Hamburger Icon*/
+.hamburgerIcon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+/*Paddle Icon*/
+.paddleIcon {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/*SIDE MENU TOGGLE-Adjust size of box here*/
+.sideToggle {
+    display: none;
+    background-color: rgba(84,58,183,.9);
+    /*background-color: pink;*/
+    margin-top: 60px;
+    padding-top: 50px;
+    position: absolute; /*was "fixed" */
+    width: 230px;
+    height: 380%;
+    z-index: 0;
+    text-align: left;
+}
+
+.sideToggle div {
+    margin: 30px;
+}
+
+/*TEXT LINKS IN SIDE TOGGLE MENU*/
+.sideToggle a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/*THIS IS THE COME EXPERIENCE CANADA TEXT OVER CANOE IMAGE*/
+.centered {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-weight: lighter;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*TRIP LOCATION TEXT ON INDEX PAGE*/
+.locationHeaders{
+    color: green;
+    font-size: 3em;
+    text-decoration: underline;
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+
+.infoBorderBoxIndex {
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 900px;
+}
+
+/*THIS IS THE INDEX PAGE BODY CONTENT BOX*/
+.locationHeaders, .dateText, .summary, .pBlock {
+    padding-left: 20px;
+}
+
+
+
+/*STYLING FOR BOOKING PAGE*/
+
+.summary {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    /*border: 1px solid pink;*/
+}
+
+.dateText {
+    font-weight: bolder;
+    /*border: 1px solid pink;*/
+}
+
+.pBlock {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/*STYLE FOR "BOOK A TRIP" TITLE*/
+.booktext {
+    margin-bottom: 0;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*THIS IS THE CONTAINER WITH "BOOK A TRIP" INSIDE*/
+.bookTripFormBox {
+    margin-top: 100px;
+    margin-bottom: 260px;
+    margin-left: 350px;
+}
+
+/*.bookLine {
+    /*margin-top: 150px;*/
+    /*border-bottom: 1px solid grey;
+}*/
+
+/*BOOKING PAGE  "some quick details" text*/
+.detailsH3 {
+    color: black;
+    margin-left: 0px;
+}
+
+/*STYLES FOR INPUT BOXES*/
+
+/*Email input box style*/
+.boxSiz {
+    width: 210px;
+    height: 32px;
+}
+/*Styles for the location pulldown items*/
+/*.locInput {
+
+}*/
+
+/*LOCATION INPUT BOX STYLES*/
+.locationBox {
+    width: 217px;
+    height: 38px;
+}
+
+/*TRIP DATE INPUT BOX STYLES*/
+.dateBox {
+    width: 212px;
+    height: 34px;
+}
+
+
+/*STYLES FOR BOOK TRIP LABELS*/
+.emailLabel {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.locLabel {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.dateLabel {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.subButton {
+    background-color: rgb(187, 191, 242);
+    width: 90px;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 0;
+    margin-top: 20px;
+}
+.addBooking {
+    margin: 20px;
+}
+
+
+
+
+
+
+/*ALL ADVENTURES PAGE STYLING*/
+
+/*UPCOMING ADVENTURES TITLE ON ALL-ADVENTURES PAGE*/
+.upcomingH2 {
+    border-bottom: 1px solid black;
+    letter-spacing: .08em;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*STYLING FOR LOCATION HEADING THAT PRINTS OUT TO ALL ADVENTURES PAGE*/
+.tripLocation {
+    color: green;
+    font-size: 3em;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.datePrintOut {
+    font-size: 22px;
+}
+.durPrintOut {
+    font-size: 22px;
+}
+.summaryPrintOut {
+    /*font-weight: bold;*/
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.printFormat {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sumTextFormat {
+    font-size: 18px;
+    /*height: 20px;*/
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.infoBorderBoxAllAd {
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 900px;
+}
+
+
+
+
+
+
+
+/*THANK YOU PAGE AFTER BOOKING PAGE*/
+
+/*THANK YOU STYLES*/
+
+.thankYouAllText {
+    margin-left: 340px;
+    margin-bottom: 370px;
+}
+.thankstext {
+    margin-bottom: 0;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.thanksline {
+    margin-top: 150px;
+}
+.thanksAllTxt {
+    margin-top: 10px;
+    font-size: 20px;;
+}
+
+
+
+
+
+/*THIS IS THE ADMIN-ADD ADVENTURE FORM IN A BLOCK*/
+
+/*THIS CONTROLS THE STYLING FOR "ADD AN ADVENTURE" TITLE*/
+.addtext {
+    font-size: 30px;
+}
+
+.adminformElements {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-left: 50px;
+    margin-left: 300px;
+    /*border: 1px solid pink;*/
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.adminformElementsConfirm {
+    display: block;
+    margin: auto;
+    padding-left: 31%;
+    padding-top: 15%;
+    padding-bottom: 30%;
+}
+
+/*ADMIN-ADD PAGE- THESE ARE THE STYLINGS FOR THE INPUT BOXES*/
+
+#heading  {
+    width: 210px;
+    height: 35px;
+}
+.tripDateBox {
+    width: 205px;
+    height: 30px;
+}
+#duration {
+    width: 210px;
+    height: 35px;
+}
+
+.summaryBoxSiz {
+    width: 202px;
+    height: 30px;
+}
+
+/*STYLES FOR ADMIN-CONFIRM PAGE*/
+
+/*BOX CONTAINING ALL CONFIRM TEXT*/
+
+/*.adminformElementsConfirm {
+}*/
+
+/*"View all Adventures" text STYLES*/
+.viewAllAdv {
+    font-size: 23px;
+    margin-left: 110px;
+}
+/*"New Booking added successfully" text styles*/
+.addSuccess {
+    font-size: 20px;    
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*THESE ARE THE STYLES FOR THE HEADER WAVE ELEMENT*/
+
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+.waveheader {
+  position:relative;
+ width: 1000px; /*This is correct to hold the proportions*/
+  margin: auto;
+  text-align:center;
+  background-color: rgba(84,58,183);
+  color:white;
+  z-index: 2;
+  align-items: center;
+}
+
+
+.inner-header {
+  /*height:65vh;*/
+  width:1000px;
+  margin: 0;
+  padding: 0;
+  height: 75px;
+
+}
+
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.wavesDiv {
+    height: 0px;
+}
+
+.waves {
+  position:relative;
+  width: 1000px;
+  /*height:5vh;*/
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:30px;
+  max-height:30px;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+
+
+
+
+
+
+
+/*FOOTER WAVE BAR*/
+
+/*THIS ONE INNER HEADER FOOTER IS COMMENTED OUT IN CODE*/
+.inner-headerFooter {
+    /*height:65vh;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+  }
+
+  /*THIS IS WHERE YOU ADJUST THE SIZE AND WIDTH OF FOOTER WAVE ELEMENT*/
+  .wavesDivFooter {
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+    bottom: 100px;
+    z-index: 2;    
+}
+
+  /*THIS CONTROLS THE HEIGHT AND WIDTH OF THE FOOTER WAVE ANIMATION DIV*/
+  .wavesFooter {
+    display: block;
+    height: 40px;
+    width: 1000px;
+    z-index: 2;
+    /*border: 1px solid pink;*/
+
+    
+  }
+
+/*THIS IS THEY SIZING AND STYLING OF THE BLUE FOOTER DIV BELOW WAVE*/
+  .footerMenuBar {
+      /*display: inline-block; */
+      display: flex;  
+      align-items: center;
+      bottom: 0;
+      height: 180px;
+      width: 1000px;
+      background-color: rgba(84,58,183);
+      color: white;
+      z-index: 0;
+      justify-content: space-evenly;
+      /*border: 1px solid yellow;*/
+  }
+
+/*SOCIAL MEDIA ICONS STYLING*/
+  .footerMenuBar img{
+    float: left;
+    display: block;
+    width: 60px;
+    height: 60px;
+    
+  }
+
+  .copyrightBox {
+    background-color: rgba(84,58,183);
+    color: white;
+    clear: right;
+    text-align: center;
+    font-size: 18px;    
+    bottom: 0;
+    height: 70px;
+    width: 1000px;
+  }
+
+
+
+
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------MOBILE STYLES: 1000px and below--------------*/
+
+@media only screen and (max-width : 1000px) {
+    
+    html {
+        width: 1000px;
+        margin: 0;
+    }
+    
+    body {
+        margin: 0;
+        width: 1000px;
+    }
+
+    .headerTitle {
+        font-size: 33px;
+    }
+
+    .upcomingH2 {
+        font-size: 4em;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
+        letter-spacing: 3px;
+    }
+    /*COME EXPERIENCE CANADA MOBILE TEXT*/
+    .centered {
+        width: 100%
+    }    
+
+    .locationHeaders, .dateText, .summary, .pBlock {
+        margin-left: 30px;
+    }
+
+    .locationHeaders {
+        font-size: 2.5em;
+    }
+    .summary {
+        font-size: 1.5em;
+    }
+    .pBlock {
+        font-size: 1em;
+        margin-right: 8px;
+    }
+
+    .sideToggle {
+        width: 300px;
+    }
+
+    .sideToggle a {
+        font-size: 2.5em;
+    }
+}
+
+  /*NAV BAR MOBILE STYLES*/
+  .inner-header {
+    /*height:65vh;*/
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+  }
+
+
+  /*Mobile nav container*/
+  .flex-container > div{
+    width: 1000px;
+    margin: 20px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+}
+/*.waves {
+    width: 100%;
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }*/
+
+
+  .copyrightBox {
+    width: 1000px;
+    background-color:rgba(84,58,183);
+  }
+  .footerMenuBar {
+    width: 1000px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*-------------------------------MOBILE 768PX----------------------------*/
+
+/*Shrinking for mobile-THIS FROM WAVE SOURCE*/
+/*@media only screen and (max-width : 768px) {
+    
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+    .content {
+      height:30vh;
+    }
+
+}*/
+
+
+
+
+
+
+
+
+/*----------------MOBILE STYLES 2: 394px and below--------------
+
+
+@media only screen and (max-width : 394px) {
+
+
+    html {
+        /*background-color: pink;
+        width: 100%;
+
+    }*/
+
+   /* body {
+        width: 100%;
+    }
+
+    /*.navTitle {
+        text-align: center;
+        font-size: 2px;
+    }*/
+
+
+    /*.centered {
+        font-size: 2em;
+        top: 21%;
+    }
+    
+    .locationHeaders, .dateText, .summary, .pBlock {
+        margin-right: 10px;
+    }
+
+    .upcomingH2 {
+        font-size: 1.8em;
+    }
+
+    .locationHeaders {
+        font-size: 2em;
+    }
+
+    .sideToggle {
+        width: 200px;
+        top: 144px
+        
+    }
+    .sideToggle a {
+        font-size: 1.5em;          
+    }*/
+
+
+    /* MOBILE BOOK AND THANK-YOU FORM STYLES*/
+    /*.bookLine {
+        margin-top: 200px;
+    }
+    .booktext {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .thanksline {
+        margin-top: 200px;
+    }
+
+    .thankstext {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .thanksAllTxt {
+        margin-left: 30px;
+    }
+
+    .subButton {
+        margin-left: 30px;
+    }
+    .detailsH3 {
+        margin-left: 30px;
+    }
+    .emailLabel {
+        margin-left: 30px;
+    }
+
+    .locLabel {
+        margin-left: 30px;
+    }
+
+    .dateLabel {
+        margin-left: 30px;
+    }
+
+}
