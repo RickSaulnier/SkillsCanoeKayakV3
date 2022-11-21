@@ -13,17 +13,17 @@
                         <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                     </defs>
                         <g class="parallax">
-                            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.2)" />
-                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(84,58,183)" />
-                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(84,58,183, 0.5)" />
-                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(84,58,183, 0.2)" />
+                            <use class="footerWaveUse" xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.2)" />
+                            <use class="footerWaveUse" xlink:href="#gentle-wave" x="48" y="0" fill="rgba(84,58,183)" />
+                            <use class="footerWaveUse" xlink:href="#gentle-wave" x="48" y="0" fill="rgba(84,58,183, 0.5)" />
+                            <use class="footerWaveUse" xlink:href="#gentle-wave" x="48" y="0" fill="rgba(84,58,183, 0.2)" />
                         </g>
                     </svg>
                     <div class="footerMenuBar">
-                        <a href="https://www.facebook.com/"><img src="images/facebookIcon1.png" alt="Facebook Icon"></a>
-                        <a href="https://www.instagram.com/"><img src="images/instagramIcon1.png" alt="Instagram Icon"></a>
-                        <a href="https://www.twitter.com/"><img src="images/twitterIcon1.png" alt="Twitter Icon"></a>
-                        <a href="https://www.youtube.com/"><img src="images/youtubeIcon1.png" alt="Youtube Icon"></a>
+                        <a class="socIcon"href="https://www.facebook.com/"><img src="images/facebookIcon1.png" alt="Facebook Icon"></a>
+                        <a class="socIcon" href="https://www.instagram.com/"><img src="images/instagramIcon1.png" alt="Instagram Icon"></a>
+                        <a class="socIcon" href="https://www.twitter.com/"><img src="images/twitterIcon1.png" alt="Twitter Icon"></a>
+                        <a class="socIcon" href="https://www.youtube.com/"><img src="images/youtubeIcon1.png" alt="Youtube Icon"></a>
                     </div>
                     <div class="copyrightBox">&copy; Copyright Halifax Canoe and Kayak 2022</div>
                 </div>
